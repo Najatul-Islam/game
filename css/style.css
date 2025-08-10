@@ -1,0 +1,315 @@
+/* all common css start */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0%;
+    padding: 0%;
+    line-height: 0.8;
+}
+.container{
+    margin: 0 auto;
+    width: 1350px;
+}
+/* all common css end */
+    /* headerpart start  */
+    #headerpart{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+       font-family: "Oswald", sans-serif;
+    }
+    .logomenuicons{
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        width: 13%;
+
+    }
+    .menu{
+         width: 72%;
+    }
+    .icons{
+        width: 15%;
+        align-items: right;
+    }
+    .menu ul{
+        display: flex
+    }
+    .menu ul li a{
+        padding: 0 18px;
+        color: #DDDDDD;
+        font-size: 16px;
+        font-weight: 400;
+        transition: .5s;
+    }
+    .menu ul li a:hover{
+        color: #FF4655;
+    }
+    .icons a{
+        color: #DDDDDD;
+        padding: 0 10px;
+        font-size: 16px;
+        font-weight: 400;
+        transition: .5s;
+    }
+    .icons a:hover{
+color: #FF4655;
+    }
+    .hii{
+        padding-right: 25px;
+    }
+        /* headerpart end */
+             /* bannerpart start */
+             #bannerpart{
+                background: url(../images/banner\ 1.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                padding-top: 340px;
+                padding-bottom: 110px;
+                font-family: "Oswald", sans-serif;
+             }
+             .bannertexts p{
+               color: white;
+               font-size:16px ;
+               font-weight: 400;
+               line-height: 24px;
+               padding-bottom: 50px;
+               width: 521px;
+               
+             }
+             .bannertexts h3{
+               color: white;
+               font-size:27px ;
+               font-weight: 400;
+             }
+             .bannertexts h1{
+            color: white;
+               font-size:60px ;
+               font-weight:600 ;
+                 padding: 30px 0 ;
+                 position: relative;
+             }
+              .bannertexts h1::before{
+                position: absolute;
+                height:5px;
+                width: 90px;
+                background: white;
+                bottom:25% ;
+                left:42% ;
+                transform: translate(-50%);
+                content: "";
+             }
+             .bannerbtn{
+                padding-bottom: 290px;
+             }
+             .bannerbtn a{
+                color: black;
+                background: white;
+                font-family: "Oswald", sans-serif;
+                 padding: 20px 25px;
+                 font-size:16px ;
+               font-weight: 400;
+               transition: .5s;
+               border: 2px solid #fff;
+             }
+             .btn{
+                padding-left: 8px;
+             }
+             .bannerbtn a:hover{
+                color: #FF4655;
+                background: transparent;
+             }
+             .bannericons a{
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                color: black;
+                background: #757575;
+                margin: 0 10px;
+                padding: 5px 7px;
+                transition: .5s;
+             }
+             .bannericons a:hover{
+                color: #fff;
+             }
+                  /* bannerpart end */
+               /* about part start */
+               #aboutpart{
+                  padding: 220px 0;
+                  background: #121212;
+               }
+               .abouttext h3{
+                color: white;
+               font-size:38px ;
+               font-weight: 600;
+               width: 700px;
+               line-height: 50px;
+               letter-spacing: 7%;
+               font-family:"Oswald", sans-serif;
+               position: relative; 
+             }
+            .abouttext h3::before{
+                position: absolute;
+                height:3px;
+                width: 120px;
+                background:#FF4655;
+                bottom:10% ;
+                left:40% ;
+                transform: translate(-50%);
+                content: "";
+             }
+             .aboutflex{
+                display: flex;
+                justify-content: space-between;
+             }
+             .pic{
+                padding-top: 50px;
+                padding-bottom: 50px;
+             }
+             
+             .paragraph h3{
+            color: white;
+               font-size:27px ;
+               font-weight: 600;
+             letter-spacing: 3%;
+               font-family:"Oswald", sans-serif;
+               padding-bottom: 30px;
+             }
+             .paragraph a i{
+                color: #FF4655;
+                padding-right:30px;
+             }
+             .paragraph a{
+                color: white;
+               font-size:20px ;
+               font-weight: 400;
+               font-family:"Barlow Condensed", sans-serif;
+               padding-bottom: 20px;
+               display: block !important;
+             }
+              .paragraph p{
+                color: white;
+               font-size:18px ;
+               font-weight:400;
+               line-height: 24px;
+               width: 465px;
+               font-family:"Oswald", sans-serif;
+               padding-bottom: 40px;
+              }
+              .aboutbtn{
+                display: flex;
+              }
+             .aboutbtn a{
+                color: white;
+                background:#212121;
+                font-family: "Oswald", sans-serif;
+                 padding: 20px 25px;
+                 font-size:16px ;
+               font-weight: 400;
+               transition: .5s;
+               border: 2px solid black;
+             }
+             .right{
+                color: white !important;
+                padding-left: 7px;
+             }
+             .aboutbtn a:hover{
+                color: #FF4655;
+                background: transparent;
+             }
+            .about{
+                display: flex;
+                /* justify-content: space-between; */
+                text-align: center !important;
+                transition: .5s;
+            }
+            .aboutitem a{
+                font-family: "Barlow Condensed", sans-serif;
+                 font-size:60px ;
+               font-weight: 600;
+               color: white;
+               padding-top: 20px;
+               position: relative;
+            }
+            .aboutitem a::after{
+                position: absolute;
+                height:15px;
+                width:15px;
+                background:#FF4655;
+                border-radius: 50%;
+                bottom:10% ;
+                left:120% ;
+                transform: translate(-50%);
+                content: "";
+            }
+            .aboutitem{
+                height: 170px;
+                width: 315px;
+                 background: #212121;
+                 border-bottom-left-radius: 50px;
+                 border-top-right-radius:50px;
+                 margin-top: 50px;
+                 margin-left: 60px;
+                   }
+            
+             .aboutitem P{
+                color: white;
+               font-size:18px ;
+               font-weight: 500;
+               font-family: "Oswald", sans-serif;
+               padding-top: 20px;
+             }
+               .about :hover{
+                border: 1px solid#212121;
+                box-shadow: 0px 8px 16px 0px rgba(248, 59, 59, 0.5);
+
+               }
+                           /* about part end */
+                            /* games start */
+                            #gamespart{
+                                padding: 100px 0;
+                                background: #191919;
+                            }
+                            .gamestext h3{
+                                color: white;
+                               left: 70%;
+               font-size:38px ;
+               font-weight: 600;
+               width: 500px;
+               line-height: 50px;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+               position: relative; 
+                            }
+                            .gamestext h3::before{
+                position: absolute;
+                height:3px;
+                width: 120px;
+                background:#FF4655;
+                bottom:10% ;
+                left:40% ;
+                transform: translate(-50%);
+                content: "";
+             }
+             .pics{
+                display: inline-block;
+             }
+                             /* games end */
+
+
+
+
