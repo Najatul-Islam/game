@@ -149,7 +149,7 @@ color: #FF4655;
                   /* bannerpart end */
                /* about part start */
                #aboutpart{
-                  padding: 220px 0;
+                  padding: 200px 0;
                   background: #121212;
                }
                .abouttext h3{
@@ -286,7 +286,7 @@ color: #FF4655;
                             }
                             .gamestext h3{
                                 color: white;
-                               left: 70%;
+                               left: 60%;
                font-size:38px ;
                font-weight: 600;
                width: 500px;
@@ -301,14 +301,326 @@ color: #FF4655;
                 width: 120px;
                 background:#FF4655;
                 bottom:10% ;
-                left:40% ;
+                left:35% ;
                 transform: translate(-50%);
                 content: "";
              }
+             .hm{
+              position: relative;
+             }
              .pics{
                 display: inline-block;
+                
              }
+             .gamesicon {
+              position: absolute;
+              bottom: 0;
+              right: 0;
+             }
+             .gamesicon i{
+              display: block;
+              color: #DDDDDD;
+              font-size: 35px;
+              padding: 15px 0;
+              transition: all 0.5s ease;
+             }
+             .gamesicon i:hover {
+  background: #757575;
+ box-shadow: 0 6px 12px rgba(253, 91, 91, 0.4); 
+ border-radius: 100%;
+}
                              /* games end */
+/* live part start  */
+#livepart{
+   padding: 200px 0;
+  background: #121212;
+}
+.livetext h3{
+  color: white;
+               font-size:38px ;
+               font-weight: 600;
+               width:446px;
+               line-height: 50px;
+               letter-spacing: 7%;
+               font-family:"Oswald", sans-serif;
+               position: relative; 
+}
+.livetext h3::before{
+              position: absolute;
+                height:3px;
+                width: 120px;
+                background:#FF4655;
+                bottom:8% ;
+                left:50% ;
+                transform: translate(-50%);
+                content: "";
+}
+.tour-slide-content{
+  padding-top: 50px;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+.tour-slide-content img{
+  display: block;
+ width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 20px;
+  transition: transform 0.5s ease;
+}
+.tour-slide-content img:hover{
+transform: scale(1.05); 
+box-shadow: 0 4px 12px rgba(252, 98, 98, 0.5);
+}
+.match{
+  align-items: center;
+}
+.match h4{
+  padding-top: 50px;
+  color: white;
+               font-size:25px ;
+               font-weight: medium;
+               letter-spacing: 9%;
+               font-family:"Barlow Condensed", sans-serif;
+               text-align: center;
+}
+.team{
+display: flex;
+justify-content: space-between;
+}
+.team-left{
+padding-top: 70px;
+display: block;
+position: relative;
+transition: .5s;
+}
+.team1 :hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(26, 1, 137, 0.8);
+}
+.team3{
+  transition: .5s;
+}
+ .team3 :hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(26, 1, 137, 0.8);
+}
+.matchtext{
+  position: absolute;
+  text-align: center;
+  display: block;
+  top:10%;
+  left:150%;
+}
+.matchtext h4{
+    color: white;
+               font-size:40px ;
+               font-weight: medium;
+               letter-spacing: 15%;
+               text-align: center;
+               font-family:"Oswald", sans-serif;
+}
+.team1{
+  display: block;
+  padding-bottom: 60px;
+  transition: .5s;
+}
+.team-right{
+padding-top: 70px;
+display: block;
+position: relative;
+}
+.team2 :hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(26, 1, 137, 0.8);
+}
+.team2{
+display: block;
+  transition: .5s;
+}
+.team4{
+  padding-top: 60px ;
+  transition: .5s;
+}
+.team4 :hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(26, 1, 137, 0.8);
+}
+.matchtexttwo{
+  position: absolute;
+  text-align: center;
+  display: block;
+  top:55%;
+  right:145%;
+}
+.matchtexttwo h4{
+    color: white;
+               font-size:40px ;
+               font-weight: medium;
+               letter-spacing: 15%;
+               text-align: center;
+               font-family:"Oswald", sans-serif;
+}
+/* live part end */
+      /* friday sale part start */
+      #salepart{
+padding: 200px 0;
+  background: #191919;
+      }
+      .saletext h3{
+        top: 0;
+        left: 65%;
+color: white;
+               font-size:38px ;
+               font-weight: 600;
+               width:449px;
+               line-height: 50px;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+               position: relative;
+      }
+      .saletext h3::before{
+              position: absolute;
+                height:3px;
+                width: 120px;
+                background:#FF4655;
+                bottom:8% ;
+                left:60% ;
+                transform: translate(-50%);
+                content: "";
+}
+.saleflex{
+display: flex;
+justify-content: space-between;
+}
+.saleitem{
+padding-top: 60px;
+position: relative;
+}
+.saleitem h4{
+  padding-top: 30px;
+  color: white;
+               font-size:25px ;
+               font-weight: 600;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+}
+.saleitem p{
+  padding: 30px 0;
+  color: #666;;
+               font-size:16px ;
+               font-weight: 600;
+               letter-spacing: 10%;
+               font-family:"Oswald", sans-serif;               
+}
+.saleitem img{
+  font-size: 25px;
+    transition: transform 0.5s ease;
+}
+.saleitem img:hover{
+  transform: scale(1.05); 
+box-shadow: 0 4px 12px rgba(252, 98, 98, 0.5);
+}
+.saleitem i{
+  color: #212121;
+  font-size: 30px;
+  position: absolute;
+  bottom:82%;
+  right: 6%;
+}
+.catalog h4{
+  padding-top: 80px;
+  color: white;
+               font-size:20px ;
+               font-weight: 600;
+               font-family:"Barlow Condensed", sans-serif;
+}
+.div{
+  background: #212121;
+  width: 1300px;
+  margin-top: 50px;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  height: 500px;
+}
+.catalogtext h5{
+   padding-top: 60px;
+   padding-left: 50px;
+  color: #FF4655;
+               font-size:16px ;
+               font-weight: 600;
+               letter-spacing: 10%;
+               font-family:"Oswald", sans-serif;
+}
+.catalogtext h4{
+   padding-top: 30px;
+   padding-left: 50px;
+  color: #fff;
+               font-size:38px ;
+               font-weight: 600;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+               width: 580px;
+               line-height: 50px;
+}
+.catalogtext p{
+   padding-top: 30px;
+   padding-left: 50px;
+   padding-right: 450px;
+  color: #666;
+               font-size:16px ;
+               font-weight: 600;
+               letter-spacing: 7%;
+               font-family:"Oswald", sans-serif;
+               line-height: 30px; 
+}
+.catalogbtn a{
+  color: #fff;
+  background: #121212;
+  padding: 25px 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  transition: .5s;
+}
+.catalogbtn a:hover{
+  background: transparent;
+  color: #FF4655;
+   border: 1px solid #fff;
+}
+.slideimg{
+  position: absolute;
+  top: 50px;
+  left: 65%;
+  width: 100%;
+  margin-top: 45px;
+}
+.slideimg img{
+  transition: .5s;
+}
+.slideimg-top{
+  position: absolute;
+  bottom: 0%;
+  left: 4%;
+}
+.slidetop{
+  position: absolute;
+  bottom:0%;
+  left: 50%;
+}
+.top{
+   position: absolute;
+  top:-15%;
+  right: 73.5%;
+}
+.slideimg img:hover{
+  transform: scale(1.05); 
+box-shadow: 0 4px 12px rgba(135, 1, 1, 1);
+border: 1px dashed darkblue;
+}
+       /* friday sale part end */
 
 
 
