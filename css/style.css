@@ -325,9 +325,8 @@ color: #FF4655;
               transition: all 0.5s ease;
              }
              .gamesicon i:hover {
-  background: #757575;
  box-shadow: 0 6px 12px rgba(253, 91, 91, 0.4); 
- border-radius: 100%;
+ background: transparent;
 }
                              /* games end */
 /* live part start  */
