@@ -621,7 +621,544 @@ box-shadow: 0 4px 12px rgba(135, 1, 1, 1);
 border: 1px dashed darkblue;
 }
        /* friday sale part end */
+   /* gaming Accesories part start */
+   #Accesoriespart{
+padding: 200px 0;
+background: #121212;
+   }
+   .accesoriestext h3{
+color: white;
+               font-size:38px ;
+               font-weight: 600;
+               width: 446px;
+               line-height: 50px;
+               letter-spacing: 7%;
+               font-family:"Oswald", sans-serif;
+               position: relative;
+   }
+  .accesoriestext h3::before{
+                position: absolute;
+                height:3px;
+                width: 120px;
+                background:#FF4655;
+                bottom:8% ;
+                left:65% ;
+                transform: translate(-50%);
+                content: "";
+             } 
+  .accesoriesflex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+  }
+  .accesoriesitem{
+    align-items: center;
+    text-align: center;
+    background: #212121;
+    padding: 40px;
+    border: 1px solid black;
+    margin-left: 25px;
+  }
+  .accesoriesitem h3{
+color: white;
+               font-size:40px ;
+               font-weight:700;
+               line-height: 50px;
+               letter-spacing: 1%;
+               font-family:"Oswald", sans-serif;  
+}
+.accesoriesitem img{
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.accesoriesitem h4{
+color: white;
+               font-size:25px ;
+               font-weight:700;
+               letter-spacing: 1%;
+               font-family:"Oswald", sans-serif;  
+}
+.accesoriesitem p{
+color:#FF4655;
+               font-size:20px ;
+               font-weight:700;
+               font-family:"Oswald", sans-serif;  
+               padding-top: 25px;
+}
+.accright i{
+  position: absolute;
+  top: 45%;
+  left: 102%;
+  color:#FF4655;
+  font-size: 50px;
+  transition: .5s;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.accright i:hover{
+  background: #DDDDDD;
+}
+.accleft i{
+ position: absolute;
+  top: 45%;
+  right: 95.5%;
+  color:#FF4655;
+  font-size: 50px;
+  transition: .5s;
+    height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.accleft i:hover{
+  background: #DDDDDD;
+}
+.hover{
+  display: flex;
+  justify-content: space-between;
+transition: .8s;
+}
+  .hover:hover{
+    transform: scale(1.05);
+     box-shadow: 0px 8px 16px 0px rgba(248, 59, 59, 0.5); ;
+  }
 
+ /* gaming Accesories part end */
+/* Elite team part start */
+#eliteteampart{
+  padding: 200px 0;
+  background:#191919 ;
+}
+.eliteteamtext h3{
+        top: 0;
+        left: 65%;
+color: white;
+               font-size:38px ;
+               font-weight: 600;
+               width:498px;
+               line-height: 50px;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+               position: relative;
+}
+.eliteteamtext h3::before{
+              position: absolute;
+                height:3px;
+                width: 120px;
+                background:#FF4655;
+                bottom:8% ;
+                left:30% ;
+                transform: translate(-50%);
+                content: "";
+}
+.eliteteamtop{
+  margin-top: 80px;
+  width: 50%;
+  position: relative;
+  display: flex;
+  margin-left: 25px;
+}
+.eliteteamtop img{
+  width: 100%;
+  display: block;
+}
+.eliteitemtext{
+position: absolute;
+padding: 30px;
+background: #25242458;
+bottom: 0;
+left:0;
+width: 100%;
+transition: .5s;
+}
+.eliteitemtext h3{
+  position: absolute;
+  color: white;
+               font-size:30px ;
+               font-weight: 700;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+}
+.elitecontent{
+  padding: 30px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background: #25242454;
+  width: 100%;
+  transition: .5s;
+}
+.elitecontent a{
+  color: #fff;
+  background: #FF4655;
+  padding: 10px 25px;
+  transition: .5s;
+  border: 1px solid #191919;
+}
+.elitecontent a:hover{
+color: #FF4655;
+background: #DDDDDD;
+}
+.elitecontent p{
+color: white;
+               font-size:16px ;
+               font-weight: 400;
+               letter-spacing: 7%;
+               width: 400px;
+               line-height: 30px;
+               font-family:"Oswald", sans-serif;  
+               padding: 20px 0;
+}
+.elitecontent h3{
+    color: white;
+               font-size:30px ;
+               font-weight: 700;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+}
+.eliteteamtop:hover .elitecontent{
+visibility: visible;
+opacity: 1;
+}
+.eliteteamtop:hover .eliteitemtext{
+  visibility: hidden;
+  opacity: 0;
+}
+.eliteitems{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.eliteteambottom{
+  width: 50%;
+  position: relative;
+  display: flex;
+  margin-left: 25px;
+}
+.eliteteambottom img{
+  width: 100%;
+  display: flex;
+}
+.eliteitemstwo{
+  justify-content: space-between;
+  display: flex;
+}
+.elitecontenttwo{
+  padding: 30px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background: #25242454;
+  width: 100%;
+  transition: .5s;
+}
+.elitecontenttwo a{
+  color: #fff;
+  background: #FF4655;
+  padding: 10px 25px;
+  transition: .5s;
+  border: 1px solid #191919;
+}
+.elitecontenttwo a:hover{
+color: #FF4655;
+background: #DDDDDD;
+}
+.elitecontenttwo p{
+color: white;
+               font-size:16px ;
+               font-weight: 400;
+               letter-spacing: 7%;
+               width: 400px;
+               line-height: 30px;
+               font-family:"Oswald", sans-serif;  
+               padding: 20px 0;
+}
+.elitecontenttwo h3{
+    color: white;
+               font-size:30px ;
+               font-weight: 700;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+}
+.eliteteambottom:hover .elitecontenttwo{
+visibility: visible;
+opacity: 1;
+}
+.eliteteambottom:hover .eliteitemtext{
+  visibility: hidden;
+  opacity: 0;
+}
+/* Elite team part end */
+/* Q & A part start */
+#QNApart{
+  padding: 200px 0;
+  background: #121212;
+}
+.QNAtext h3{
+    color: white;
+               font-size:38px ;
+               font-weight:600 ;
+                width: 493px;
+                line-height: 50px;
+                 position: relative;
+                 font-family: "Barlow Condensed", sans-serif;
+}
+.QNAtext h3::before{
+    position: absolute;
+                height:3px;
+                width: 120px;
+                background:#FF4655;
+                bottom:8% ;
+                left:75% ;
+                transform: translate(-50%);
+                content: "";
+}
+.QNAflex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  border-bottom: 2px solid #666;
+  position: relative;
+}
+.QNAflex ::before{
+  position: absolute;
+                height:250px;
+                width: 2px;
+                background:#666;
+                bottom:0;
+                left:50%;
+                transform: translate(-50%);
+                content: "";
+}
+.QNAlefttext{
+  display: block;
+  padding-left:  60px;
+}
+.QNAlefttext h3{
+color: #fff;
+  font-size: 22px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  transition: .5s;
+}
+.QNAlefttext h3:hover{
+  color: #FF4655;
+}
+.QNAlefttext p{
+  color: #666;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  padding: 25px 0;
+  width: 427px;
+  line-height: 30px;
+}
+.QNAleft{
+  display:flex;
+  margin-bottom: 80px;
+}
+.nope{
+  border: none !important;
+}
+.num h3{
+  color: #fff;
+  font-size: 30px;
+  padding: 25px 30px;
+  background: #FF4655;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  transition: .5s;
+}
+.num h3:hover{
+  color: #FF4655;
+  background: black;
+}
+.QNAflextwo{
+  display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+   position: relative;
+}
+.QNAflextwo::before{
+    position: absolute;
+                height:250px;
+                width: 2px;
+                background:#666;
+                bottom:0%;
+                left:50%;
+                transform: translate(-50%);
+                content: "";
+}
+.QNAright{
+  display:flex;
+}
+/* Q & A part end */
+/* lastpart start */
+#lastpart{
+  padding: 200px 0;
+  background: #191919;
+  position: relative;
+
+}
+
+.subscribe{
+  background:#FF4655 ;
+  position: absolute;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  bottom: 90%;
+  left: 15%;
+}
+.subscribe h3{
+ color: white;
+               font-size:40px ;
+               font-weight: 600;
+               width:725px;
+               line-height: 50px;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+}
+.input{
+  align-items: center;
+  margin-left: 60px;
+ width: 25%;
+ display: flex;
+}
+.input input{
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 70px;
+ border: none;
+ position: absolute;
+}
+.input input:hover{
+  outline: none;
+}
+.input button{
+  background: #121212;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius:50px ;
+  top:60px;
+  right:15px;
+  position: absolute;
+  border: 2px solid black;
+  transition: .5s;
+}
+.input button:hover{
+  background: transparent;
+  color: darkred;
+}
+.last{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #666;
+  padding-bottom: 100px;
+}
+.lastitem p{
+color: #666;;
+               font-size:16px ;
+               font-weight: 600;
+               letter-spacing: 10%;
+               width: 500px;
+               line-height: 25px;
+               font-family:"Oswald", sans-serif; 
+               padding: 20px 0;  
+}
+.lastitem i{
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background: #212121;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: .5s;
+}
+.lastitem i:hover{
+  background: #FF4655;
+}
+.lastitemm{
+  display: block;
+  padding: 20px 0;
+}
+.lastitemm h3{
+   color: white;
+               font-size:25px ;
+               font-weight: 600;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+               padding-bottom: 20px;
+}
+.lastitemm a{
+  color: #666;
+  font-size: 16px;
+   font-weight: 500;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+               display: block;
+               padding: 20px 0;
+               transition: .5s;
+}
+.lastitemm a:hover{
+  color: #FF4655;
+}
+.lastitemmm{
+  display: block;
+  width: 30%;
+}
+.lastitemmm h3{
+   color: white;
+               font-size:25px ;
+               font-weight: 600;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+               padding-bottom: 20px;
+               padding-top: 20px;
+}  
+.lastitemflex{
+  display: flex;
+  justify-content:space-between ;
+  width: 32%;
+  margin-top: 25px;
+}
+.cardone{
+  width: 100%;
+  padding-left: 6px;
+}
+.topp{
+  margin-top:3px;
+}
+.end h3{
+   color: white;
+               font-size:20px ;
+               font-weight: 500;
+               letter-spacing: 7%;
+               font-family:"Barlow Condensed", sans-serif;
+               padding-top: 30px; 
+               transition: .5s; 
+}
+.end h3:hover{
+  color: #FF4655;
+}
+.end{
+  text-align: center;
+}
+/* lastpart end */
 
 
 
