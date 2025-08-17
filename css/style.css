@@ -152,26 +152,28 @@ color: #FF4655;
                   padding: 200px 0;
                   background: #121212;
                }
-               .abouttext h3{
-                color: white;
+.abouttext h3{
+        top: 0;
+        left: 0%;
+color: white;
                font-size:38px ;
                font-weight: 600;
-               width: 650px;
+               width:450px;
                line-height: 50px;
                letter-spacing: 7%;
-               font-family:"Oswald", sans-serif;
-               position: relative; 
-             }
-            .abouttext h3::before{
-                position: absolute;
+               font-family:"Barlow Condensed", sans-serif;
+               position: relative;
+      }
+   .abouttext h3::before{
+              position: absolute;
                 height:3px;
                 width: 120px;
                 background:#FF4655;
-                bottom:10% ;
-                left:45% ;
+                bottom:8% ;
+                left:55% ;
                 transform: translate(-50%);
                 content: "";
-             }
+}
              .aboutflex{
                 display: flex;
                 justify-content: space-between;
